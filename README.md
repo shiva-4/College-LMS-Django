@@ -26,16 +26,22 @@ The login page is common for students and teachers.
 The username is their name and password for everyone is 'project123'.  
 
 Example usernames:  
-student- 'samarth'  
-teacher- 'trisila'  
+student- 'shiva'  
+teacher- 'shiva'  
 
 You can access the django admin page at **http://127.0.0.1:8000/admin** and login with username 'admin' and the above password.
 
 Also a new admin user can be created using
 
 ```bash
-python manage.py createsuperuser
-```
+To create a super user
+$ python manage.py createsuperuser
+Username (leave blank to use 'your-username'): admin
+Email address: admin@example.com
+Password:
+Password (again):
+Superuser created successfully.
+
 
 ## Users
 
